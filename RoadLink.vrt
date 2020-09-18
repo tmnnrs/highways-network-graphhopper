@@ -1,0 +1,16 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="RoadLink">
+        <SrcDataSource>RoadLink.csv</SrcDataSource>
+        <GeometryType>wkbMultiLineString</GeometryType>
+        <LayerSRS>EPSG:27700</LayerSRS>
+        <Field name="id" type="String" width="20" src="id" />
+        <Field name="highway" type="String" width="20" src="highway" />
+        <Field name="name" type="String" width="254" src="name" />
+        <Field name="alt_name" type="String" width="254" src="alt_name" />
+        <Field name="ref" type="String" width="10" src="ref" />
+        <Field name="oneway" type="String" width="5" src="oneway" />
+        <Field name="_length" type="Real" src="_length" />
+        <Field name="_grade_separation" type="String" width="10" src="_grade_separation" />
+        <GeometryField encoding="WKT" field="wkt"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
