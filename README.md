@@ -13,7 +13,7 @@ Step-by-step guide for converting OS MasterMap Highways Network data into a simp
 
 ## Process
 
-1. Translate Highwaysdata from its native GML format using https://github.com/tmnnrs/osmm-highways-network-translator.
+1. Translate Highways data from its native GML format using https://github.com/tmnnrs/osmm-highways-network-translator.
 
 2. Construct the Highways RoadLink attributes (subset only) to replicate an OpenStreetMap [Way](https://wiki.openstreetmap.org/wiki/Way) using AWK:
 
